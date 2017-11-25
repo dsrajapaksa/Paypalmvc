@@ -44,12 +44,12 @@ namespace Paypal2.Controllers
          
             CreditCard crdtCard = new CreditCard();
             crdtCard.billing_address = billingAddress;
-            crdtCard.cvv2 = "782";  
+            crdtCard.cvv2 = "";  // CVV here
             crdtCard.expire_month = 1; 
             crdtCard.expire_year = 2020; 
             crdtCard.first_name = "Dileepa";
             crdtCard.last_name = "Rajapaksa";
-            crdtCard.number = ""; 
+            crdtCard.number = ""; //Card Number Here
             crdtCard.type = "visa"; 
 
           
